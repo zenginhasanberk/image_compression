@@ -1,6 +1,6 @@
 # Image Compression in Python
 
-This is an image compression project coded in Python. For my linear algebra class in college, we were asked to research different applications of linear algebra in the real world. I was intrigued by how image compression uses linear algebra, more specifically singular value decomposition. I did research on the topic, and then decided to code a program in Python myself to see how it works.
+This is an image compression project coded in Python. For my linear algebra class in college, we were asked to research different applications of linear algebra in the real world. I was intrigued by how image compression uses linear algebra, more specifically singular value decomposition. I did research on the topic, and then decided to code a script in Python myself to see how it works.
 
 For a quick glance at the project, take a look at the bottom of this file for images of the results.
 
