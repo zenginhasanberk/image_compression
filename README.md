@@ -28,22 +28,22 @@ I measured the file sizes of both the original and compressed images to show how
 
 Rank, r, is the previously mentioned 'num_singular_values' (i.e., the number of vectors preserved). You can see how dropping num_singular_values also drops the image quality and size gradually.
 
-![Original Image](images/image-1.jpg)
+![Original Image](media/image-1.jpg)
 
 
-![Rank 500](images/image-2.jpg)
+![Rank 500](media/image-2.jpg)
 
 
-![Rank 250](images/image-3.jpg)
+![Rank 250](media/image-3.jpg)
 
 
-![Rank 100](images/image-4.jpg)
+![Rank 100](media/image-4.jpg)
 
 
-![Rank 50](images/image-5.jpg)
+![Rank 50](media/image-5.jpg)
 
 
-![Rank 25](images/image-6.jpg)
+![Rank 25](media/image-6.jpg)
 
 
-![Rank 10](images/image-7.jpg)
+![Rank 10](media/image-7.jpg)
