@@ -1,10 +1,10 @@
-## Image Compression in Python
+# Image Compression in Python
 
 This is an image compression project coded in Python. For my linear algebra class in college, we were asked to research different applications of linear algebra in the real world. I was intrigued by how image compression uses linear algebra, more specifically singular value decomposition. I did research on the topic, and then decided to code a program in Python myself to see how it works.
 
 For a quick glance at the project, take a look at the bottom of this file for images of the results.
 
-### How does it work?
+## How does it work?
 
 This project compresses greyscale images using singular value decomposition (SVD), a matrix factorization technique. I used PyTorch, OpenCV, and NumPy libraries in the process. Understanding the process or the code doesn't require any deep knowledge of image processing or linear algebra.
 
@@ -24,26 +24,26 @@ I then reconstructed the compressed image by multiplying the compressed U, S, an
 
 I measured the file sizes of both the original and compressed images to show how effective the compression was. I am including images of the results below. This was an interesting project, showing how SVD can reduce the size of an image file by keeping only the most significant singular values. Many modern compression algorithms use similar techniques from linear algebra.
 
-### Results
+## Results
 
 Rank, r, is the previously mentioned 'num_singular_values' (i.e., the number of vectors preserved). You can see how dropping num_singular_values also drops the image quality and size gradually.
 
-![Original Image](media/image-1.jpg)
+![Original Image](media/image-1.png)
 
 
-![Rank 500](media/image-2.jpg)
+![Rank 500](media/image-2.png)
 
 
-![Rank 250](media/image-3.jpg)
+![Rank 250](media/image-3.png)
 
 
-![Rank 100](media/image-4.jpg)
+![Rank 100](media/image-4.png)
 
 
-![Rank 50](media/image-5.jpg)
+![Rank 50](media/image-5.png)
 
 
-![Rank 25](media/image-6.jpg)
+![Rank 25](media/image-6.png)
 
 
-![Rank 10](media/image-7.jpg)
+![Rank 10](media/image-7.png)
